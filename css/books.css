@@ -1,0 +1,246 @@
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+	background-color: #fff8ed;
+}
+
+div.header{
+	background-color: #fff8ed;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+}
+
+div.title {
+	display: table;
+	content: "";
+	margin: auto
+	
+} 
+
+/* Nav */
+
+div.navigation-row{
+	text-align: center;
+}
+
+ul#navbar {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+
+ul#navbar li {
+  display: block;
+  float: left;
+  margin: 10px;
+  padding: 0px 3px;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1em;
+}
+
+ul#navbar li:hover {
+  background-color: #FFDCA2;
+  border-radius: 4px;
+}
+
+ul#navbar li a {
+  display: block;
+  color: #000;
+}
+
+ul#navbar li a:hover {
+	text-decoration: none;
+}
+
+ul#navbar ul {
+  display: none;
+}
+
+ul#navbar li:hover > ul {
+  display: block;
+}
+
+ul#navbar ul {
+  padding: 0;
+  position: absolute;
+  background: #fff;
+  margin: 0;
+  border: #9E1B1B solid 5px;  
+  z-index: 10;
+}
+
+ul#navbar ul li {
+  float: none; 
+  position: relative;
+}
+
+ul#navbar ul li a {
+  color: #000;
+  text-align: center;
+} 
+
+
+li:hover { 
+    background-color: #FFDCA2;
+}
+
+a:hover { 
+    background-color: #FFDCA2;
+}
+
+/* End Nav */
+
+div.featured {
+	border-top: 10px solid #9E1B1B;
+	border-bottom: 10px solid #9E1B1B;
+	margin: 5px;
+	padding: 20px;
+	background-color: #FFDCA2;
+}
+
+.row{
+	overflow: hidden;
+}
+
+/* Book pics */
+div.book1{
+	margin: 5px;
+	padding: 5px;
+}
+
+div.book2{
+	margin: 5px;
+	padding: 5px;
+}
+
+div.book3{
+	margin: 5px;
+	padding: 5px;
+}
+
+div.book4{
+	margin: 5px;
+	padding: 5px;
+}
+
+div.book5{
+	margin: 5px;
+	padding: 5px;
+}
+
+div.book6{
+	margin: 5px;
+	padding: 5px;
+}
+
+div.book7{
+	margin: 5px;
+	padding: 5px;
+}
+
+div.book8{
+	margin: 5px;
+	padding: 5px;
+}
+/* End Book pics */
+
+/* Book descriptions */
+div.book1Desc {
+	height: auto;
+	margin: 5px;
+	padding-top: 10%;
+}
+
+div.book2Desc {
+	height: auto;
+	margin: 5px;
+	padding-top: 10%;
+}
+
+div.book3Desc {
+	height: auto;
+	margin: 5px;
+	padding-top: 10%;
+}
+
+div.book4Desc {
+	height: auto;
+	margin: 5px;
+	padding-top: 10%;
+}
+
+div.book5Desc {
+	height: auto;
+	margin: 5px;
+	padding-top: 10%;
+}
+
+div.book6Desc {
+	height: auto;
+	margin: 5px;
+	padding-top: 10%;
+}
+
+div.book7Desc {
+	height: auto;
+	margin: 5px;
+	padding-top: 10%;
+}
+
+div.book8Desc {
+	height: auto;
+	margin: 5px;
+	padding-top: 10%;
+}
+/* Book descriptions */
+
+/* Book Images */
+.tgm{
+	max-height: 75%;
+	max-width: 75%;	
+}
+
+.thl{
+	max-height: 75%;
+	max-width: 75%;	
+}
+
+.dns{
+	max-height: 75%;
+	max-width: 75%;	
+}
+
+.ssd{
+	max-height: 75%;
+	max-width: 75%;	
+}
+
+.bibi{
+	max-height: 75%;
+	max-width: 75%;	
+}
+
+.efp{
+	max-height: 75%;
+	max-width: 75%;	
+}
+
+.cln{
+	max-height: 75%;
+	max-width: 75%;	
+}
+
+.si{
+	max-height: 75%;
+	max-width: 75%;	
+}
+
+/* End Book Images */

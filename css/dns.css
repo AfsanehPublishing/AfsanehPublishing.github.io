@@ -2,7 +2,7 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
-    background-color: #fff8ed;
+	background-color: #fff8ed;
 }
 
 body {
@@ -14,10 +14,11 @@ div.header{
 	background-color: #fff8ed;
 }
 
-div.title{
+div.title {
 	display: table;
 	content: "";
 	margin: auto
+	
 } 
 
 /* Nav */
@@ -97,8 +98,6 @@ a:hover {
 
 /* End Nav */
 
-/* Main - Featured book */
-
 div.featured {
 	border-top: 10px solid #9E1B1B;
 	border-bottom: 10px solid #9E1B1B;
@@ -107,10 +106,7 @@ div.featured {
 	background-color: #FFDCA2;
 }
 
-/* End Main */
-
-.bibi{
-	max-height: 90%;
-	max-width: 90%;	
+.dns {
+	max-height: 75%;
+	max-width: 75%;
 }
-

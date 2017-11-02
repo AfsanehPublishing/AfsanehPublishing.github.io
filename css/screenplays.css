@@ -2,7 +2,7 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
-    background-color: #fff8ed;
+	background-color: #fff8ed;
 }
 
 body {
@@ -83,9 +83,8 @@ ul#navbar ul li {
 
 ul#navbar ul li a {
   color: #000;
-  text-align: center;
+  text-align: left;
 } 
-
 
 li:hover { 
     background-color: #FFDCA2;
@@ -107,10 +106,57 @@ div.featured {
 	background-color: #FFDCA2;
 }
 
-/* End Main */
-
-.bibi{
-	max-height: 90%;
-	max-width: 90%;	
+div.soulTitle{
+	font-size: 1.875em;
+	text-align: center;
 }
 
+div.sunTitle{
+	font-size: 1.875em;
+	text-align: center;
+}
+
+div.afganTitle{
+	font-size: 1.875em;
+	text-align: center;
+}
+
+div.childrenTitle{
+	font-size: 1.875em;
+	text-align: center;
+}
+
+div.sorrowTitle{
+	font-size: 1.875em;
+	text-align: center;
+}
+
+div.meetingTitle{
+	font-size: 1.875em;
+	text-align: center;
+}
+
+div.soulDesc{
+	padding-bottom: 50px;
+}
+
+div.sunDesc{
+	padding-bottom: 50px;
+}
+
+div.afganDesc{
+	padding-bottom: 50px;
+}
+
+div.childrenDesc{
+	padding-bottom: 50px;
+}
+
+div.sorrowDesc{
+	padding-bottom: 50px;
+}
+
+div.meetingDesc{
+	padding-bottom: 50px;
+}
+/* End Main */

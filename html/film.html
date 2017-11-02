@@ -16,7 +16,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/film.css">
     </head>
     <body>
     	
@@ -57,40 +57,72 @@
                 </ul>
             </div><!-- End Nav Bar -->	
     	</div> <!-- End Header-->
-    	
-    	<!-- Home content -->
+
+<!-- Books -->
     	<div class = "featured">
     		<div class = "container">
     			<div class"row">
-    				<div class="col-xs-6 col-sm-4">
-    					<a href="/bibi.html"><img src="img/bibi.jpg" class="bibi"/></a>
+    				
+    				<!-- The greatest meeting-->
+    				<div class="col-xs-7 col-sm-6 col-md-6 col-lg-6 book1">
+    					<a href="/film.html"><img src="img/uncommon.jpg" class="uncommon" /></a>
     				</div>
-					<div class="col-xs-6 col-sm-4 blurb">
+    				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 book1Desc">
     					<p>
-    						<strong>Bibi's Rainbow</strong><br />
-    						&nbsp;&nbsp;&nbsp; Spanning four generations, Majid Amini’s 
-    						new novel <i>Bibi’s Rainbow</i> is an absorbing, honest and amusing story of the members 
-    						of an extended immigrant Iranian family in Southern California who privately battle 
-    						their painful pasts and resist assimilation into American culture. The matriarch who 
-    						emerges from Amini’s imagination illuminates the importance of kindness, affection, 
-    						community, unconditional love, tolerance and forgiveness, in her efforts to help them 
-    						move forward, heal old wounds and make peace with their lives in America. Bibi’s 
-    						character is strong, passionate and clever. She uses her positive attitude and keen 
-    						understanding of human nature—and an unending supply of homemade exotic and gourmet 
-    						meals and desserts—to soothe and quell their discomfort, strengthen their relationships 
-    						with their neighbors and community, and challenge the rigid ideals that their ancient 
-    						culture has imposed.
+    						<!-- Uncommon Blurb -->
     					</p>
+    						<!-- Buy DVD Copy -->
+    						<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+							<input type="hidden" name="cmd" value="_cart">
+							<input type="hidden" name="business" value="Mamini@photoemission.com">
+							<input type="hidden" name="lc" value="US">
+							<input type="hidden" name="item_name" value="Uncommon Friends">
+							<input type="hidden" name="item_number" value="Video1">
+							<input type="hidden" name="amount" value="3.00">
+							<input type="hidden" name="currency_code" value="USD">
+							<input type="hidden" name="button_subtype" value="products">
+							<input type="hidden" name="no_note" value="0">
+							<input type="hidden" name="tax_rate" value="7.500">
+							<input type="hidden" name="shipping" value="3.99">
+							<input type="hidden" name="add" value="1">
+							<input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHostedGuest">
+							<table><tr><td><input type="hidden" name="on0" value="3.00">DVD Copy - $3.00 + Shipping</td></tr></table>
+							<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+							<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+							</form>
+							
+							<!-- Buy Digitial Copy -->
+							<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+							<input type="hidden" name="cmd" value="_cart">
+							<input type="hidden" name="business" value="Mamini@photoemission.com">
+							<input type="hidden" name="lc" value="US">
+							<input type="hidden" name="item_name" value="Uncommon Friends">
+							<input type="hidden" name="item_number" value="Video1">
+							<input type="hidden" name="amount" value="3.00">
+							<input type="hidden" name="currency_code" value="USD">
+							<input type="hidden" name="button_subtype" value="products">
+							<input type="hidden" name="no_note" value="0">
+							<input type="hidden" name="tax_rate" value="7.500">
+							<input type="hidden" name="shipping" value="3.99">
+							<input type="hidden" name="add" value="1">
+							<input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHostedGuest">
+							<table><tr><td><input type="hidden" name="on0" value="3.00">Digital Copy - $3.00</td></tr></table>
+							<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+							<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+							</form>
+
     				</div>
-    				<div class="col-xs-6 col-sm-4 majid">
-    					<a href="/"><img src="img/majid_pic.png" /></a>
-    					<p>
-    						Majid Amini is a novelist, screenplay writer, director and producer of feature films. 
-    					</p>
-    					
-    				</div>
-    			</div>
+				</div>
     		</div>
     	</div>
-    </body>
+    	
+    	
+    	
+			<footer>
+				<p>
+					&copy; Copyright  by Fenrir
+				</p>
+			</footer>
+		</div>
+	</body>
 </html>
